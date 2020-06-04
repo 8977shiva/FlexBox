@@ -1,25 +1,38 @@
-ul{
+ h1,h2{
+     font-family: monospace;
+
+ }
+ul {
     border: 5px dotted red;
     padding: 0;
     margin: 0;
-    
-   
+
+
 }
 
-li{
+li {
     list-style-type: none;
     border: 1px solid #999;
-	margin: 0.5em;
+    margin: 0.5em;
     padding: 0.5em;
-    
+
 
 }
 
-.selections{
+.selections {
     margin-top: 10px;
     display: flex;
     flex-flow: row wrap;
 }
-.sel{
+
+.sel {
     margin: 5px;
+}
+.order{
+     border: 2px dotted blue; 
+     order: 2; 
+}
+.flex{
+    border: 2px dotted blue; 
+    flex: 0 1 25%;
 }

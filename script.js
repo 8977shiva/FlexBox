@@ -27,6 +27,14 @@ $(document).ready(function () {
   $('#ai').change(()=>{
        let  align=$('#ai').val();
       console.log(align)
-      $('ul').css("align-items", align)
-  })
+      $('ul').css("align-items", align);
+  });
+
+    $("#or").click(()=>{
+        $('.flex1').addClass('order');
+    });
+
+    $('#fg').click(()=>{
+        $(".flex1").addClass('flex')
+    });
 });
