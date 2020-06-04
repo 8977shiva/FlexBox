@@ -17,24 +17,51 @@
                  <li> 3.vitae voluptatibus et ut fugit,</li>
                  <li> 4. delectus nemo distinctio commodi reiciendis quaerat, deserunt quae</li>
                     <li>  5.nesciunt dolorem. Quaerat?</li>
-             </ul>
-            <div class="inputs">
-                <button id='flex'> click to convert to display flex</button><br>
-
-                
-                <label for='flex-d'>flex-direction</label>
-                <select name="flex-direction" id="flex-d">
+             </ul>  </div>
+            <div class="selections">
+                <button id='flex' class="sel"> click to convert to display flex</button>
+                <!-- flex-direction  -->
+                <label for='flex-d'class="sel" >flex-direction</label>
+                <select class="sel" name="flex-direction" id="flex-d">
                     <option value="row">row</option>
                     <option value="row-reverse">row-reverse</option>
                     <option value="column">column</option>
                     <option value="column-reverse">column-reverse</option>
 
                 </select>
-
+                <!-- flex-warp -->
+                <label for="flex-w" class="sel">flex-wrap</label>
+                <select class="sel"name="flex-wrap" id="flex-w">
+                    <option value="nowrap">nowrap</option>
+                    <option value="wrap">wrap</option>
+                    <option value="wrap-reverse">wrap-reverse</option>
+                </select>
+              <!-- flex-flow  -->
+                <button id="flex-f" class="sel">flex-flow</button>
+                <!-- justify-content  -->
+                <label for="jc" class="sel">justify-content</label>
+                <select name="jus" id="jc" class="sel">
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>   
+                    <option value="space-between">space-between</option>  
+                    <option value="space-around">space-around</option> 
+                    <option value="space-evenly">space-evenly</option>              
+                </select>
+                <!-- algin-item  -->
+                <label for="ai" class="sel">align-items</label>
+                <select name="align-item" id="ai" class='sel'>
+                    <option value="select">select opt</option>
+                    <option value="flex-start">flex-start</option>
+                    <option value="flex-end">flex-end</option>
+                    <option value="center">center</option>
+                    <option value="strech">strech</option>
+                    <option value="baseline">baseline</option>
+                </select>
             
 
             </div>
-         </div>
+       
         
         <script src="script.js"  defer></script>
     </body>

@@ -1,12 +1,25 @@
 ul{
     border: 5px dotted red;
+    padding: 0;
+    margin: 0;
+    
    
 }
 
 li{
     list-style-type: none;
-    border-style:solid;
-    color:black;
-    margin:5px;
+    border: 1px solid #999;
+	margin: 0.5em;
+    padding: 0.5em;
+    
 
+}
+
+.selections{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.sel{
+    margin: 5px;
 }
