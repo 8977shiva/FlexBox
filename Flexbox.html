@@ -7,7 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-    </head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
     <body>
          <div class="list">
              <ul>
@@ -17,7 +18,22 @@
                  <li> 4. delectus nemo distinctio commodi reiciendis quaerat, deserunt quae</li>
                     <li>  5.nesciunt dolorem. Quaerat?</li>
              </ul>
+            <div class="inputs">
+                <button id='flex'> click to convert to display flex</button><br>
 
+                
+                <label for='flex-d'>flex-direction</label>
+                <select name="flex-direction" id="flex-d">
+                    <option value="row">row</option>
+                    <option value="row-reverse">row-reverse</option>
+                    <option value="column">column</option>
+                    <option value="column-reverse">column-reverse</option>
+
+                </select>
+
+            
+
+            </div>
          </div>
         
         <script src="script.js"  defer></script>
